@@ -1,7 +1,4 @@
 document.body.onload = function () {
-  var bigBen = new Audio();
-  bigBen.src = "./assets/sounds/bigBen.mp3";
-  bigBen.play();
 
   nbr = 39; //nb images
   p = 0; //position par défaut

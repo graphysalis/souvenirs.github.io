@@ -1,0 +1,49 @@
+#roquefort a {
+  position: relative;
+  color: whitesmoke;
+  font-size: 1.2rem;
+  border-bottom: 3px solid whitesmoke;
+}
+.lavande {
+  position: absolute;
+  width: 55px;
+  height: auto;
+  top: -10px;
+  left: -50px;
+}
+
+body {
+  background-image: url(./assets/images/roquefortLesPins/background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+nav ul li a:hover {
+  color: rgb(255, 255, 255);
+  font-size: 1.8rem;
+  border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+.trips {
+  position: relative;
+}
+
+.item1 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  height: 680px;
+  width: 550px;
+  background-image: url(./assets/images/postcard4.png);
+  background-size: contain;
+  background-position: center;
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 550px) {
+  .item1 {
+    display: none;
+  }
+}

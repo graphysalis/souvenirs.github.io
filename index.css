@@ -1,0 +1,118 @@
+@font-face {
+  font-family: "Candy";
+  src: url(./assets/fonts/EmilysCandy-Regular.ttf);
+}
+
+body {
+  display: none;
+  font-family: "Candy", sans-serif;
+  background-image: url(./assets/images/corse/paysage2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+button {
+  cursor: pointer;
+  width: 460px;
+  height: 100px;
+  margin: auto;
+  color: black;
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  text-align: center;
+  font-family: "Candy", sans-serif;
+}
+
+.birdsOn,
+.birdsOff {
+  display: block;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 30px;
+  left: 50%;
+}
+
+.birdsOff {
+  display: none;
+}
+.bird {
+  position: relative;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: auto;
+  top: 25%;
+  left: 0;
+  transform: rotateY(180deg);
+}
+.birdsOff::before {
+  content: "Stopper les oiseaux...";
+}
+
+.birdsOn::before {
+  content: "Ecouter les oiseaux...";
+}
+
+h2 {
+  font-family: "Candy", sans-serif;
+  color: black;
+  font-size: 2rem;
+  text-align: center;
+}
+.welcome {
+  position: absolute;
+  width: 260px;
+  height: 150px;
+  background-color: #c268a753;
+  transform: translate(-50%, -50%);
+  top: 40%;
+  left: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+button a {
+  text-decoration: none;
+  font-family: "Candy", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 3px;
+  color: rgb(222, 117, 185);
+  animation: btnClignote 0.8s ease-in-out infinite;
+}
+@keyframes btnClignote {
+  100% {
+    color: rgb(32, 5, 23);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  body {
+    background-size: cover;
+    background-position: 30%;
+    background-attachment: fixed;
+  }
+
+  button {
+    font-size: 1.5rem;
+    width: 250px;
+  }
+
+  .welcome {
+    width: 180px;
+    top: 230px;
+  }
+
+  button a {
+    font-size: 1rem;
+    line-height: normal;
+  }
+
+  .birdsOn,
+  .birdsOff {
+    top: 100px;
+  }
+  .bird {
+    top: -15px;
+  }
+}

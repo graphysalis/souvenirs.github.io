@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to CORSICA !</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./corse.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="./london.html">LONDON</a></li>
+        <li id="corse"><a href="./corse.html"><img class="donkey" src="./assets/images/corse/donkey.png" alt="donkey">CORSICA</a></li>
+        <li><a href="./nantes.html">NANTES</a></li>
+      </ul>
+    </nav>
+    <div class="trips">
+      <div class="item1"></div>
+      <section class="caroussel">
+        <button class="button" id="corseRight">
+          <h2>Suivante<i class="fa-solid fa-chevron-right"></i></h2>
+        </button>
+        <button class="button" id="corseLeft">
+          <h2><i class="fa-solid fa-chevron-left"></i>Précédente</h2>
+        </button>
+        <div id="corseContainer"></div>
+      </section>
+    </div>
+    <div class="video1">
+      <video controls>
+        <source src="./assets/images/corse/FerryBar.mp4" type=video/mp4>
+      </video>
+    </div>
+    <div class="video2">
+      <video controls>
+        <source src="./assets/images/corse/videoCascade1.mp4" type=video/mp4>
+      </video>
+    </div>
+    <div class="video3">
+      <video controls>
+        <source src="./assets/images/corse/videoCascade2.mp4" type=video/mp4>
+      </video>
+    </div>
+    </div>
+    <script src="./corse.js"></script>
+  </body>
+</html>

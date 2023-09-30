@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>welcome to LONDON !</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./london.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li id="london">
+          <a href="./london.html"
+            ><img
+              class="bus"
+              src="./assets/images/london/bus.png"
+              alt="bus"
+            />LONDON</a
+          >
+        </li>
+        <li><a href="./corse.html">CORSICA</a></li>
+        <li><a href="./nantes.html">NANTES</a></li>
+      </ul>
+    </nav>
+    <div class="trips">
+      <div class="item1"></div>
+      <section class="caroussel">
+        <button class="button" id="londonRight">
+          <h2>Suivante<i class="fa-solid fa-chevron-right"></i></h2>
+        </button>
+        <button class="button" id="londonLeft">
+          <h2><i class="fa-solid fa-chevron-left"></i>Précédente</h2>
+        </button>
+        <div id="londonContainer"></div>
+      </section>
+    </div>
+    <script src="./london.js"></script>
+  </body>
+</html>

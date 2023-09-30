@@ -1,0 +1,74 @@
+#corse a {
+  position: relative;
+  color: whitesmoke;
+  border-bottom: 3px solid whitesmoke;
+  font-size: 1.8rem;
+}
+
+.donkey {
+  position: absolute;
+  top: -6px;
+  left: -70px;
+  width: 75px;
+  height: auto;
+}
+
+body {
+  background-image: url(./assets/images/corsica.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.trips {
+  position: relative;
+}
+
+.item1 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  height: 680px;
+  width: 550px;
+  background-image: url(./assets/images/postcard3.png);
+  background-size: contain;
+  background-position: center;
+  opacity: 0.9;
+}
+
+h2 {
+  color: azure;
+}
+
+.video1,
+.video2,
+.video3 {
+  height: 600px;
+  width: 470px;
+  margin: auto;
+  text-align: center;
+  background-color: rgba(245, 245, 245, 0.431);
+}
+
+video {
+  height: auto;
+  width: 90%;
+  margin: 15px;
+}
+
+@media screen and (max-width: 550px) {
+  body {
+    background-position-x: left;
+    background-position-y: top;
+  }
+  .item1 {
+    display: none;
+  }
+  .video1,
+  .video2,
+  .video3 {
+    height: auto;
+    width: 280px;
+  }
+}

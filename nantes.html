@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to NANTES !</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./nantes.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="./london.html">LONDON</a></li>
+        <li><a href="./corse.html">CORSICA</a></li>
+        <li id="nantes">
+          <a href="./nantes.html"
+            ><img
+              class="blason"
+              src="./assets/images/nantes/blason.png"
+              alt="blason"
+            />NANTES</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <div class="trips">
+      <div class="item1"></div>
+      <section class="caroussel">
+        <button class="button" id="nantesRight">
+          <h2>Suivante<i class="fa-solid fa-chevron-right"></i></h2>
+        </button>
+        <button class="button" id="nantesLeft">
+          <h2><i class="fa-solid fa-chevron-left"></i>Précédente</h2>
+        </button>
+        <div id="nantesContainer"></div>
+      </section>
+    </div>
+    <div class="video1">
+      <video controls>
+        <source src="./assets/images/nantes/elephant.mp4" type=video/mp4>
+      </video>
+    </div>
+    <div class="video2">
+      <video controls>
+        <source src="./assets/images/nantes/cityCruiser.mp4" type=video/mp4>
+      </video>
+    </div>
+    <div class="video3">
+      <video controls>
+        <source src="./assets/images/nantes/versPornic.mp4" type=video/mp4>
+      </video>
+    </div>
+    <div class="video4">
+      <video controls>
+        <source src="./assets/images/nantes/spider.mp4" type=video/mp4>
+      </video>
+    </div>
+    <script src="./nantes.js"></script>
+  </body>
+</html>

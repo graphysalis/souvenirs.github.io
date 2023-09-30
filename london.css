@@ -1,0 +1,69 @@
+#london a {
+  position: relative;
+  color: whitesmoke;
+  font-size: 1.8rem;
+  border-bottom: 3px solid whitesmoke;
+}
+.bus {
+  position: absolute;
+  width: 75px;
+  height: auto;
+  top: 0px;
+  left: -400px;
+  opacity: 0;
+  animation: busClignote 3s ease-in-out forwards;
+}
+@keyframes busClignote {
+  100% {
+    opacity: 1;
+    left: -80px;
+  }
+}
+
+body {
+  background-image: url(./assets/images/background1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+nav ul li a:hover {
+  color: black;
+  font-size: 1.8rem;
+  border-bottom: 3px solid black;
+}
+
+.trips {
+  position: relative;
+}
+
+.item1 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  height: 680px;
+  width: 550px;
+  background-image: url(./assets/images/postcard2.png);
+  background-size: contain;
+  background-position: center;
+  opacity: 0.8;
+}
+
+h2 {
+  box-shadow: 15px black;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    background-image: url(./assets/images/background1.jpg);
+    background-position-x: left;
+    background-position-y: top;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .item1 {
+    display: none;
+  }
+}

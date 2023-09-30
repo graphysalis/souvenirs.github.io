@@ -1,0 +1,67 @@
+#nantes a {
+  position: relative;
+  color: whitesmoke;
+  font-size: 1.8rem;
+  border-bottom: 3px solid whitesmoke;
+}
+.blason {
+  position: absolute;
+  width: 35px;
+  height: auto;
+  top: 0;
+  left: -50px;
+}
+
+body {
+  background-image: url(./assets/images/nantes.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.trips {
+  position: relative;
+}
+
+.item1 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  height: 680px;
+  width: 550px;
+  background-image: url(./assets/images/postcard.png);
+  background-size: contain;
+  background-position: center;
+  opacity: 0.9;
+}
+.video1,
+.video2,
+.video3,
+.video4 {
+  height: 600px;
+  width: 470px;
+  margin: auto;
+  text-align: center;
+  background-color: rgba(245, 245, 245, 0.431);
+}
+
+video {
+  height: auto;
+  width: 90%;
+  margin: 15px;
+}
+
+@media screen and (max-width: 550px) {
+  .item1 {
+    display: none;
+  }
+
+  .video1,
+  .video2,
+  .video3,
+  .video4 {
+    height: auto;
+    width: 280px;
+  }
+}

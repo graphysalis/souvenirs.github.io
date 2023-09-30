@@ -37,7 +37,7 @@ nav ul {
 }
 
 nav ul li {
-  margin: 0 50px;
+  margin: 0 30px;
 }
 
 nav ul li a {
@@ -99,7 +99,8 @@ h2:hover {
 
 #corseRight,
 #londonRight,
-#nantesRight {
+#nantesRight,
+#roquefortRight {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -107,7 +108,8 @@ h2:hover {
 
 #corseLeft,
 #londonLeft,
-#nantesLeft {
+#nantesLeft,
+#roquefortLeft {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -115,7 +117,8 @@ h2:hover {
 
 #londonContainer,
 #corseContainer,
-#nantesContainer {
+#nantesContainer,
+#roquefortContainer {
   width: 400px;
   height: 530px;
 }
@@ -130,7 +133,7 @@ h2:hover {
 
 @media screen and (max-width: 700px) {
   nav {
-    height: 180px;
+    height: 250px;
     margin: 0 auto 100px;
   }
   nav ul {

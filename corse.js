@@ -2,9 +2,6 @@ document.body.onload = function () {
   nbr = 30; //nb images
   p = 0; //position par défaut
 
-  var grillons = new Audio();
-  grillons.src = "./assets/sounds/grillons.mp3";
-  grillons.play();
 
   corseContainer = document.querySelector("#corseContainer");
   corseLeft = document.querySelector("#corseLeft");

@@ -2,10 +2,6 @@ document.body.onload = function () {
   nbr = 13; //nb images
   p = 0; //position par défaut
 
-  var medieval = new Audio();
-  medieval.src = "./assets/sounds/medieval.mp3";
-  medieval.play();
-
   nantesContainer = document.querySelector("#nantesContainer");
 
   nantesLeft = document.querySelector("#nantesLeft");

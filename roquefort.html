@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Roquefort !</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./roquefort.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="./london.html">LONDON</a></li>
+        <li><a href="./corse.html">CORSICA</a></li>
+        <li><a href="./nantes.html">NANTES</a></li>
+        <li id="roquefort">
+          <a href="./roquefort.html"
+            ><img
+              class="lavande"
+              src="./assets/images/roquefortLesPins/lavande.png"
+              alt="lavande"
+            />ROQUEFORT LES PINS</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <div class="trips">
+      <div class="item1"></div>
+      <section class="caroussel">
+        <button class="button" id="roquefortRight">
+          <h2>Suivante<i class="fa-solid fa-chevron-right"></i></h2>
+        </button>
+        <button class="button" id="roquefortLeft">
+          <h2><i class="fa-solid fa-chevron-left"></i>Précédente</h2>
+        </button>
+        <div id="roquefortContainer"></div>
+      </section>
+    </div>
+    <script src="./roquefort.js"></script>
+  </body>
+</html>

@@ -133,7 +133,7 @@ h2:hover {
 
 @media screen and (max-width: 700px) {
   nav {
-    height: 270px;
+    height: 240px;
     margin: 0 auto 100px;
   }
   nav ul {

@@ -1,5 +1,7 @@
 var password = prompt(
-  "BONJOUR DRISSIA ! Pour visiter notre site, entre l'année de notre voyage à Londres (4 chiffres)",
+  "BONJOUR COPINE !" +
+    " \ud83d\ude0e " +
+    "Pour visiter notre site, entre l'année de notre séjour à Londres (ex:1812)",
   ""
 );
 // si un mot de passe a été entré
@@ -11,6 +13,8 @@ if (password != null) {
   } else {
     alert(
       "\u26a0" +
+        "Tu n'es pas ma copine?!" +
+        " \ud83d\ude1f " +
         "Accès non-autorisé / Rafraîchir la page " +
         "\u27f3" +
         " et essayer à nouveau...",
